@@ -1,0 +1,115 @@
+﻿
+
+	<link rel="stylesheet" href="css/global.css">
+	<script src="javascript/jquery.min.js"></script>
+	<script src="javascript/slides.min.jquery.js"></script>
+	<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'images/loading.gif',
+				play: 5000,
+				pause: 2500,
+				hoverPause: true,
+				animationStart: function(current){
+					
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log('animationStart on slide: ', current);
+					};
+				},
+				animationComplete: function(current){
+					
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log('animationComplete on slide: ', current);
+					};
+				},
+				slidesLoaded: function() {
+					
+				}
+			});
+		});
+
+
+	</script>
+
+<body>
+
+		<div id="example" class="example-slide clearfix">
+                        <div id="slides" class="slidest">
+                            <div class="slides_container">
+                                
+                                <div class="slide">
+                                	<div class="slide-left">
+                                    <a href="#" title="图片信息1" ><img src="images/mobilegraphics1.png" alt="Slide 2"></a>
+                                    </div>
+                                    <div class="slide-right">
+                                    	<div class="hotinfo-tit">What is Buckasur?</div>
+                                		<div class="hotinfo-desc">loream ipsum dolor sit amet,consectetur elit.Curabltur arcu reat,
+                                                    accumsan id imprediet,porttitor at sem.currabirt arcu earj.
+                                                    accumsan id imperdiet et,porttitleor at sem.Nulla porttitle accumsan tincident.Donec rutrum comgue leo eget malesuada.</div>
+                                    	<div class="hotinfo-item clearfix">
+                                            <div class="author clearfix">
+                                                 <ul>
+                                                        <li>Nulla porttitor accumsan tincidunt. Quisque velit nisi.</li>
+                                                        <li>Nulla porttitor accumsan tincidunt Quisque.</li>
+                                                        <li>Nulla porttitor accumsan  nisi.</li>
+                                                        <li>Nulla porttitor accumsan Quisque velit nisi.</li>
+                                                        <li>Nulla porttitor accumsan tincidunt velit nisi.</li>
+
+                                                    </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slide">
+                                	<div class="slide-left">
+                                    <a href="#" title="图片信息2" ><img src="images/mobilegraphics.png"  alt="Slide 3"/></a>
+                                    </div>
+                                     <div class="slide-right">
+                                        <div class="hotinfo-tit">What is Buckasur?</div>
+                                        <div class="hotinfo-desc">loream ipsum dolor sit amet,consectetur elit.Curabltur arcu reat,
+                                                    accumsan id imprediet,porttitor at sem.currabirt arcu earj.
+                                                    accumsan id imperdiet et,porttitleor at sem.Nulla porttitle accumsan tincident.Donec rutrum comgue leo eget malesuada.</div>
+                                        <div class="hotinfo-item clearfix">
+                                            <div class="author clearfix">
+                                                 <ul>
+                                                        <li>Nulla porttitor accumsan tincidunt. Quisque velit nisi.</li>
+                                                        <li>Nulla porttitor accumsan tincidunt Quisque.</li>
+                                                        <li>Nulla porttitor accumsan  nisi.</li>
+                                                        <li>Nulla porttitor accumsan Quisque velit nisi.</li>
+                                                        <li>Nulla porttitor accumsan tincidunt velit nisi.</li>
+
+                                                    </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <a href="#" class="prev"></a>
+                            <a href="#" class="next"></a>
+                        </div>
+           		    </div>
+        <div id="frame_javascript">
+			<div id="data_javascript">
+				<!--[if IE 6]>   
+				<script src="javascript/DD_belatedPNG.js" mce_src="javascript/DD_belatedPNG.js"></script>   
+				<script type="text/javascript">
+				DD_belatedPNG.fix('.png,i');
+                DD_belatedPNG.fix('.slide-right img,.slide-left img,.caption,.prev,.next,a.button img');  
+				</script> 
+				<![endif]--> 
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+     console.log( $(".pagination"));
+
+     $(".pagination").hide();
+</script>
+</body>

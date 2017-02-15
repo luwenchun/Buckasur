@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/global.css">
+    <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+    
+  
+</head>
+<body>
+<div class="top">
+    <header class="top-header">
+        <div class="top-main">
+            <img src="images/02_logo.png" alt=""/>
+
+            <ul class="nav">
+                     <li><a href="">Download</a></li>
+                      <li><a href="">How it Works</a></li>
+                    <li><a href="">About Buckasur</a></li>
+                   
+                   
+            </ul>
+
+        </div>
+    </header>
+    <div class="banner">
+        <img src="images/content.png" alt=""/>
+        <a href="images/02_logo.png"  class="down" download>
+             <img src="images/Buttondown%20.png"   alt=""/>
+        </a>
+        <img src="images/mobile%20graphic.png" class="mobile" alt=""/>
+    </div>
+</div>
+
+<div class="ways">
+    <div class="desc">
+        <p class="center">How It Work</p>
+        <p>Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium porttitor accumsan tincidunt</p>
+        <p style="margin-top: 8px;">Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium</p>
+    </div>
+
+    <div class="search">
+        <div class="left">
+            <dl >
+                <dt style="position: relative">
+                    <img src="images/Compound%20Shape.png"  class="animated bounce" alt=""/>
+                    <img src="images/Compound%20Shape%20copy%203.png" class="dt10" alt=""/>
+                </dt>
+                <dd class="dt1">Search Your Product</dd>
+                <dd class="dt2" >
+                    <img src="images/Path.png" alt=""/>
+                    <img src="images/Rectangle%2014.png" class="dt3" alt=""/>
+                </dd>
+                <dd class="dt4">Lorem Cras ultricies ligula sed </dd>
+                <dd class="dt5">magna dictum porta</dd>
+               
+            </dl>
+        </div>
+        <div class="middle">
+            <dl>
+                <dt style="position: relative">
+                    <img src="images/Compound%20Shape1.png" class="animated bounce" alt=""/>
+                    <img src="images/Compound%20Shape%20copy%202.png" class="dt0"  alt=""/>
+                </dt>
+                <dd class="dt1">Track Price</dd>
+                <dd class="dt2">
+                    <img src="images/Path.png" alt=""/>
+                    <img src="images/Rectangle%2014.png" class="dt3" style="left: 195px;" alt=""/>
+                </dd>
+                <dd class="dt4">Lorem Cras ultricies ligula sed </dd>
+                <dd class="dt5">magna dictum porta</dd>
+
+            </dl>
+        </div>
+        <div class="right">
+            <dl>
+                <dt style="position: relative">
+                    <img src="images/Compound%20Shape2.png" class="animated bounce "  alt=""/>
+                    <img src="images/Shape%201.png" class="dt9" alt=""/>
+                </dt>
+                <dd class="dt1">Get Notifications</dd>
+                <dd class="dt2" >
+                    <img src="images/Path.png" alt=""/>
+                    <img src="images/Rectangle%2014.png" class="dt3" alt=""/>
+                </dd>
+                <dd class="dt4">Lorem Cras ultricies ligula sed </dd>
+                <dd class="dt5">magna dictum porta</dd>
+
+            </dl>
+        </div>
+    </div>
+</div>
+<iframe src="banner/index.html" width="100%" height="791px" frameborder="0" scrolling="no"> 
+</iframe>
+
+<div class="sear">
+     <div class="sear-bar" style="position: relative">
+        <p >Join Our Newsletter For Exclusive Offers</p>
+         <div style="position: relative">
+             <span class="sou"><img src="images/Send.png" alt=""/></span>
+         <img src="images/field.png" alt=""/>
+         <input type="text" value="Enter Your Email Address" class="sel"/>
+
+         </div>
+
+</div>
+<div class="showcase">
+    <p>Showcase</p>
+    <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit</p>
+    <p>amet dui.vivamus magna justo,lacinia eget tellus.</p>
+    <b class="pho"></b>
+    <div class="slider3">
+
+      <div class="slide"><img src="images/Rectangle 3 copy 3.png"></div>
+
+      <div class="slide"><img src="images/Rectangle 3 copy 2.png"></div>
+
+
+      <div class="slide slide1"><img src="images/Layer%20395.png"></div>
+
+      <div class="slide"><img src="images/Rectangle 3 copy.png"></div>
+
+      <div class="slide"><img src="images/Rectangle 3 copy 4.png"></div>
+
+
+    </div>
+
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+
+          $('.slider3').bxSlider({
+
+           displaySlideQty:5,//显示li的个数
+
+           auto: true,//显示居中
+        
+            slideWidth: 200,
+
+            minSlides: 1,
+
+            maxSlides: 5,
+
+            moveSlides: 1,
+
+            slideMargin: 10,
+            controls: false//隐藏左右按钮
+
+          });
+
+        });
+
+        $(".slide1").css("margin-top","15px");
+
+             $(".bounce").mouseover( function() {
+                   $(this).addClass("infinite");
+             }).mouseout( function(){
+                  $(this).removeClass("infinite");
+             });
+
+    </script>
+</div>
+
+
+<div class="try">
+    <p>Ready To Give It a Try?</p>
+    <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit</p>
+    <p>amet dui.vivamus magna justo,lacinia eget tellus.</p>
+    <div style="margin-top: 60px;">
+    <dl style="display: inline-block;">
+        <dt><img src="images/apple.png" alt=""/></dt>
+        <dd style="position: relative;">
+            <a href="" class="store" >
+            <img src="images/Apple Store.png"  alt=""/>
+            </a>
+        </dd>
+    </dl>
+    <dl style="display: inline-block;margin: 0 70px;">
+        <dt><img src="images/windows.png" alt=""/></dt>
+        <dd style="position: relative;">
+            <a href="" class="store" >
+            <img src="images/Windows Store.png" style="left: 26px;" alt=""/>
+                </a>
+        </dd>
+    </dl>
+    <dl style="display: inline-block;">
+        <dt><img src="images/google.png" alt=""/></dt>
+        <dd style="position: relative;">
+            <a href="" class="store" >
+            <img src="images/Google Store.png" style="left: 32px;" alt=""/>
+                </a>
+        </dd>
+    </dl>
+    </div>
+</div>
+<footer  class="footer">
+    <p><img src="images/copyright.png" alt=""/></p>
+</footer>
+</body>
+</html>

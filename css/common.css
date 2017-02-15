@@ -1,0 +1,360 @@
+*{
+    margin:0 auto;
+    padding:0;
+    font-size:14px;
+    font-family: Î¢ÈíÑÅºÚ;
+}
+.top{
+    width:100%;
+    height:724px;
+    color:#fff;
+    background: url("../images/bg.png")no-repeat;
+}
+.top-header{
+    height: 90px;
+    background: url("../images/Rectangle 17.png")no-repeat;
+
+}
+.top-main{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.top-main>img{
+    display:inline-block ;
+    margin-top: 20px;
+}
+.nav{
+    float: right;
+    list-style:none;
+    height: 90px;
+
+}
+.nav li {
+    float: right;
+    height: 90px;
+
+}
+.nav li a{
+    display: inline-block;
+    font-size: 18px;
+    font-family: serif;
+    margin-left: 40px;
+    color: #ffffff;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 25px;
+}
+.nav li a:hover{
+    background-color: #707070;
+}
+
+.banner{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner>img:nth-child(1){
+    position: absolute;
+    top: 190px;
+}
+.down{
+    position: absolute;
+    top: 422px;
+    display:inline-block;
+    width: 180px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    line-height: 55px;
+    text-align: center;
+}
+.banner>a:hover {
+    background-color: #ccc;
+}
+.mobile{
+    position: absolute;
+    top:108px;
+    right: 0px;
+}
+body{
+    background: #ffffff;
+}
+
+.ways{
+    width: 1200px;
+    margin: 0 auto;
+}
+.center{
+    text-align: center;
+    font-size: 37px;
+    font-family: serif;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.desc>p:nth-child(2),.desc>p:nth-child(3){
+    font-size: 16px;
+    font-family: serif;
+    text-align: center;
+}
+.search{
+    margin-top: 95px;
+}
+.left{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+.dt10{
+    position: absolute;bottom: 0;left: 178px;
+}
+.dt9{
+   position: absolute;left: 152px;top: 5px;
+}
+.dt0{
+position: absolute;
+    top: 17px;
+    right: 177px;
+}
+.dt1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+.dt2{
+    position: relative;
+    margin: 20px 0;
+}
+.dt3{
+    position: absolute;
+    bottom: -4px;
+    left: 170px;
+}
+.dt4{
+    color: #909090;
+    font-size: 16px;
+}
+.dt5{
+    color: #909090;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 135px;
+}
+.middle{
+    width: 34%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.right{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+.wheel{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.sear{
+    height: 272px;
+    background: url("../images/bg1.png")no-repeat;
+}
+.sear-bar{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sear-bar>p{
+    font-size: 36px;
+    padding-top: 80px;
+    margin-bottom: 35px;
+}
+.showcase{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.showcase>p:nth-child(1){
+    font-size: 37px;
+    font-family: serif;
+    margin-top: 95px  ;
+    margin-bottom: 28px;
+}
+.showcase>p:nth-child(2){
+    font-size: 16px;
+    font-family: serif;
+
+}
+.showcase>p:nth-child(3){
+    font-size: 16px;
+    font-family: serif;
+    margin-top: 10px;
+
+}
+.phone{
+
+    margin-top: 25px;
+    position: relative;
+    list-style: none;
+    padding: 0 49px;
+}
+.phone>li{
+    float: left;
+    margin-top: 89px;
+}
+.pho{
+    display:inline-block;
+    width: 257px;
+    height: 499px;
+    background:url("../images/mobile screen.png")no-repeat center top;
+    position: absolute;
+        top: 155px;
+    /* margin: auto; */
+    margin-left: -131px;
+}
+/*.phone>li:nth-child(2){*/
+    /*margin-left: 35px;*/
+    /*margin-right: 15px;*/
+/*}*/
+/*.phone>li:nth-child(3){*/
+   /*margin-top: 102px;*/
+/*}*/
+/*.phone>li:nth-child(5){*/
+    /*margin-right: 35px;*/
+    /*margin-left: 15px;*/
+/*}*/
+.point{
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 90px;
+    list-style: none;
+
+
+
+}
+.point>li{
+    float: left;
+    margin: 0 5px;
+
+}
+
+/*.phone>img{*/
+    /*margin-bottom: 75px;*/
+/*}*/
+/*.phone>img:nth-child(3){*/
+    /*margin-bottom: 0px;*/
+/*}*/
+
+.try{
+    height: 445px;
+    background: url("../images/Rectangle 1 copy 35.png")no-repeat;
+    text-align: center;
+    color: #ffffff;
+}
+.try>p:nth-child(1){
+    font-size: 37px;
+    font-weight: bold;
+    font-family: serif;
+    margin-bottom: 35px;
+    padding-top: 80px;
+}
+.try>p:nth-child(2){
+    font-size: 16px;
+    font-family: serif;
+
+}
+.try>p:nth-child(3){
+    font-size: 16px;
+    font-family: serif;
+    margin-top: 10px;
+
+}
+.try dl dt img{
+    margin-bottom: 20px;
+}
+.footer{
+    height: 110px;
+    background-color: #0f0f14;
+    text-align: center;
+    line-height: 110px;
+}
+.sel{
+    font-size: 16px;
+    background-color: transparent;
+    width: 468px;
+    height: 48px;
+    position: absolute;
+    top: 2px;
+    left: 305px;
+    border: none;
+    color: #ffffff;
+    outline:none;
+    z-index: 2;
+
+}
+.sou{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 292px;
+    top: 1px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    z-index: 1;
+    text-align: center;
+    line-height: 58px;
+}
+.sou:hover{
+    background-color: #cccccc;
+}
+.store{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    background-color: #8557ea;
+    border-radius: 20px;
+}
+.store:hover{
+    opacity: 0.7;
+}
+.store>img{
+    position: absolute;
+    top: 7px;
+    left: 35px;
+}
+.text{
+    display: inline-block;
+    width: 40%;
+    margin-left: 120px;
+    top: 158px;
+    position: absolute;
+}
+.text>p:nth-child(1){
+    font-size: 37px;
+    font-family: serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.text>p:nth-child(2){
+    font-size: 16px;
+    font-family: serif;
+    color: #929292;
+}
+.text>ul{
+    display: inline-block;
+    color: #929292;
+    margin-left: 16px;
+    margin-top: 55px;
+}
+.text>ul>li{
+    margin-bottom: 20px;
+}
